@@ -1,46 +1,37 @@
 # MACRO to SUB MICRO
 
-A long-term engineering repository documenting the journey from high-level digital system design to low-level hardware and system implementation.
+A long-term engineering repository documenting the journey from high-level digital systems down to low-level hardware implementation.
 
-This repository serves as a central workspace for exploring:
-
-- RTL Design
-- Digital Verification
-- Embedded Systems
-- Physical Design (PD)
-- PCB Development
-- Open-Source ASIC Flows
-- Operating Systems
-- RTOS Concepts
-- Low-Level System Engineering
+This repository acts as a central workspace for learning, experimenting, building projects, and documenting progress across multiple domains of electronics, VLSI, embedded systems, and low-level computing.
 
 ---
 
-# Current Focus Areas
+# Domains of Exploration
 
-## Digital Design
-- Verilog/SystemVerilog
-- RTL projects
+## RTL Design
+- Verilog
+- SystemVerilog
+- combinational and sequential circuits
 - FSM design
 - datapath architecture
-- combinational and sequential circuits
+- project-based RTL learning
 
-Simulation and experimentation primarily using:
-
-- :contentReference[oaicite:0]{index=0}
+Primary workflow:
+- simulation-driven development
+- experimentation using EDA Playground
 
 ---
 
 ## Verification
 - testbench development
-- assertion-based verification
-- functional verification
-- simulation workflows
-
-Tools and concepts:
-- Synopsys VCS
 - waveform analysis
-- verification methodologies
+- functional verification
+- debugging RTL designs
+- assertion-based verification
+
+Tool exploration:
+- Synopsys VCS
+- simulation and verification workflows
 
 ---
 
@@ -50,10 +41,12 @@ Tools and concepts:
 - STM32
 - sensor interfacing
 - communication protocols
-- firmware experimentation
+- firmware development
+- hardware experimentation
 
-Simulation platform:
-- :contentReference[oaicite:1]{index=1}
+Simulation and prototyping using:
+- Wokwi
+- virtual embedded workflows
 
 ---
 
@@ -62,64 +55,84 @@ Simulation platform:
 - floorplanning
 - placement and routing
 - timing analysis
-- power analysis
-- backend workflows
+- backend VLSI workflows
+- power and area optimization
 
 Tool exploration:
-- Synopsys
-- Cadence
-- Open-source RTL-to-GDS flows
-- LibreLane/OpenLane ecosystem
+- Synopsys tools
+- Cadence tools
+- open-source RTL-to-GDS automation flows
+- LibreLane / OpenLane ecosystem
 
 ---
 
 ## PCB Design
-- schematic design
-- multilayer PCB workflows
+- schematic capture
+- PCB layout
 - hardware prototyping
+- multi-layer board exploration
 
-Tool:
-- :contentReference[oaicite:2]{index=2}
+Using:
+- KiCad
 
 ---
 
-## Systems Exploration
+## Systems & Low-Level Computing
 - operating systems
 - RTOS concepts
-- low-level architecture
 - bootloaders
 - memory management
+- low-level architecture
 - hardware-software interaction
+- systems programming
 
 ---
 
 # Vision
 
-The goal of this repository is to progressively understand the complete stack of modern digital engineering:
+The objective of this repository is to progressively understand the complete stack of modern digital engineering:
 
 ```text
-Application Layer
-        ↓
+Applications
+      ↓
 Operating Systems
-        ↓
+      ↓
 Embedded Software
-        ↓
+      ↓
 Digital Design & Verification
-        ↓
+      ↓
 Physical Design
-        ↓
+      ↓
 Transistors & Silicon
 ```
 
+The journey begins with RTL design and embedded systems, and expands progressively into verification, backend design, PCB development, operating systems, and complete hardware-software integration.
+
 ---
 
-# Status
+# Current Focus
 
-Currently focused on:
-- RTL design by projects
+- RTL design through projects
 - simulation-driven learning
 - embedded experimentation
 - verification fundamentals
-- physical design workflows
+- backend VLSI exploration
+- PCB design workflows
 
-More domains and projects will be added progressively.
+---
+
+# Learning Philosophy
+
+- learn by building
+- document everything
+- understand fundamentals deeply
+- explore industry workflows
+- bridge hardware and software
+- move from abstraction to implementation
+
+---
+
+# Repository Status
+
+Active and continuously evolving.
+New domains, projects, tools, and workflows will be added progressively throughout the learning journey.
