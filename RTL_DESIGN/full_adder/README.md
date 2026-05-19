@@ -1,4 +1,4 @@
-\# FULL ADDER
+\#FULL ADDER
 
 Implementation and exploration of a 1-bit Full Adder using different RTL abstraction methodologies in Verilog/SystemVerilog.
 
